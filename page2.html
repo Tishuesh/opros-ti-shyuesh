@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your favorite number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>What's your favorite number?</h1>
+        
+        <div class="image-container">
+            <img src="https://avatars.mds.yandex.net/i?id=a8b023c7a5b8119568418e38d9f6c50dc542230d-12647631-images-thumbs&n=13/400x300/ffcc00/000000?text=Numbers" alt="Numbers image" id="poll-image">
+        </div>
+        
+        <div class="answers">
+            <label class="answer-option">
+                <input type="radio" name="number" value="52">
+                52
+            </label>
+            
+            <label class="answer-option">
+                <input type="radio" name="number" value="42">
+                42
+            </label>
+            
+            <label class="answer-option">
+                <input type="radio" name="number" value="67">
+                67
+            </label>
+        </div>
+        
+        <div class="button-container">
+            <button id="submit-btn">Submit answer</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
